@@ -1,0 +1,9 @@
+{
+  "generator-wix-js": {
+    "promptValues": {
+      "authorName": "ranzwix",
+      "authorEmail": "ranz@wix.com",
+      "groupId": "com.wixpress.premium"
+    }
+  }
+}
