@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noUnusedParameters": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "jsx": "react",
+        "types": ["mocha", "chai", "node"],
+        "experimentalDecorators": true,
+        "allowJs": true,
+        "importHelpers": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "strict": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "pretty": true,
+        "lib": ["dom", "es2015.promise", "es2017"]
+    },
+    "include": [
+        "./src/**/*.ts",
+        "./src/**/*.tsx",
+        "./test/**/*.ts",
+        "./test/**/*.tsx"
+    ]
+}
